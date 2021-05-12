@@ -43,7 +43,8 @@ body {
     &-item:last-child {
       border-bottom: none;
     }
-    &-item:hover {
+    &-item:hover,
+    &-item.active {
       background: #a1e9e9;
     }
   }
@@ -68,9 +69,7 @@ body {
     bottom: 0;
     z-index: -1;
   }
-  &-back.block {
-    display: block;
-  }
+  &-back.block,
   &-list.block {
     display: block;
   }

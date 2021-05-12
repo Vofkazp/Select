@@ -60,7 +60,7 @@ body {
   border-bottom: none;
 }
 
-.select-list-item:hover {
+.select-list-item:hover, .select-list-item.active {
   background: #a1e9e9;
 }
 
@@ -90,11 +90,7 @@ body {
   z-index: -1;
 }
 
-.select-back.block {
-  display: block;
-}
-
-.select-list.block {
+.select-back.block, .select-list.block {
   display: block;
 }
 /*# sourceMappingURL=style.css.map */
