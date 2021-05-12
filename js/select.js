@@ -77,8 +77,6 @@ document.querySelectorAll(".select").forEach((e) => {
       case "down":
         index = index == items.length - 1 ? 0 : ++index;
         break;
-      default:
-        throw Error("WTF?");
     }
     items[index].classList.add("active");
   }
